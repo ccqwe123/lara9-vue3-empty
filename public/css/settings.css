@@ -1,0 +1,105 @@
+@font-face {
+   font-family: 'Mazzard Regular';
+   src: url('/fonts/MazzardSoftH-Regular.otf');
+}
+
+@font-face {
+   font-family: 'Mazzard Medium';
+   src: url('/fonts/MazzardSoftH-Bold.otf');
+}
+
+@font-face {
+   font-family: 'Mazzard SemiBold';
+   src: url('/fonts/MazzardSoftH-SemiBold.otf');
+}
+
+@font-face {
+   font-family: 'Mazzard SemiBold Italic';
+   src: url('/fonts/MazzardSoftH-SemiBoldItalic.otf');
+}
+
+@font-face {
+   font-family: 'Mazzard Bold';
+   src: url('/fonts/MazzardSoftH-Bold.otf');
+}
+
+@font-face {
+   font-family: 'Inter Light';
+   src: url('/fonts/Inter-Light.ttf');
+}
+
+@font-face {
+   font-family: 'Inter';
+   src: url('/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+   font-family: 'Inter Medium';
+   src: url('/fonts/Inter-Medium.ttf');
+}
+
+@font-face {
+   font-family: 'Inter SemiBold';
+   src: url('/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+   font-family: 'Inter Bold';
+   src: url('/fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+   font-family: 'Inter Black';
+   src: url('/fonts/Inter-Black.ttf');
+}
+
+:root {
+   --app-primary: #06122A;
+   --app-accent: #FFFFFF;
+   --app-disabled: #FFF;
+   --app-muted: #909090;
+   --app-dark: #181C25;
+}
+
+body {
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+   background-color: var(--app-primary);
+   overflow-x: hidden;
+   width: 100%;
+}
+
+* {
+   font-family: 'Mazzard Regular', 'Segoe UI', Verdana, sans-serif;
+   font-size: 16px;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+p, a, span, h6, h5, h4, h3, h2, h1 {
+   line-height: 1.5rem;
+   margin: 0;
+}
+
+button {
+   background: transparent;
+   border: none;
+   border-radius: 2.5px;
+}
+
+a {
+   color: var(--app-primary);
+   text-decoration: none;
+}
+
+img {
+   user-select: none;
+   pointer-events: none;
+}
+
+table {
+   border-collapse: collapse;
+   table-layout: fixed;
+   width: 100%;
+}

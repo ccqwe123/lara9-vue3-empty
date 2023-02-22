@@ -1,0 +1,152 @@
+.fw-mazzard-regular {
+   font-family: 'Mazzard Regular', 'Segoe UI', Verdana, sans-serif;
+   font-weight: 400;
+} .fw-mazzard-medium {
+   font-family: 'Mazzard Medium', 'Segoe UI', Verdana, sans-serif;
+   font-weight: 500;
+} .fw-mazzard-semibold {
+   font-family: 'Mazzard SemiBold', 'Segoe UI', Verdana, sans-serif;
+   font-weight: 600;
+} .fw-mazzard-semibold-italic {
+   font-family: 'Mazzard SemiBold Italic', 'Segoe UI', Verdana, sans-serif;
+   font-weight: 600;
+   font-style: italic;
+} .fw-mazzard-bold {
+   font-family: 'Mazzard Bold', 'Segoe UI', Verdana, sans-serif;
+   font-weight: 700;
+} .fw-inter-light {
+   font-family: 'Inter Light';
+} .fw-inter-regular {
+   font-family: 'Inter';
+} .fw-inter-medium {
+   font-family: 'Inter Medium';
+} .fw-inter-semibold {
+   font-family: 'Inter SemiBold';
+} .fw-inter-bold {
+   font-family: 'Inter Bold';
+}
+
+.-fsize-3 {
+   font-size: 0.5rem;
+   line-height: 1rem;
+} .-fsize-2 {
+   font-size: 0.75rem;
+   line-height: 1rem;
+} .fsize-1 {
+   font-size: 0.875rem;
+   line-height: 1.25rem;
+} .fsize-base {
+   font-size: 1rem;
+   line-height: 1.5rem;
+} .fsize-1 {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+} .fsize-2 {
+   font-size: 1.25rem;
+   line-height: 1.75rem;
+} .fsize-3 {
+   font-size: 1.5rem;
+   line-height: 2rem;
+} .fsize-4 {
+   font-size: 1.875rem;
+   line-height: 2.25rem;
+} .fsize-5 {
+   font-size: 2.25rem;
+   line-height: 2.5rem;
+} .fsize-6 {
+   font-size: 3rem;
+   line-height: 1;
+}
+
+.lspacing-0\.5 {
+   letter-spacing: 0.5px;
+} .lspacing-1 {
+   letter-spacing: 1px;
+} .lspacing-1\.5 {
+   letter-spacing: 1.5px;
+} .lspacing-2 {
+   letter-spacing: 2ox;
+}
+
+.decor-none {
+   text-decoration: none;
+} .decor-underline {
+   text-decoration: underline;
+} .decor-through {
+   text-decoration: line-through;
+}
+
+.txt-upper {
+   text-transform: uppercase;
+} .txt-lower {
+   text-transform: lowercase;
+}
+
+.space-nowrap {
+   white-space: nowrap;
+}
+
+.line-clamp {
+   line-height: 1.25em;
+   max-height: 1.25em;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 1;
+   overflow: hidden;
+}
+
+.biline-clamp {
+   line-height: 1.25em;
+   max-height: 2.5em;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 2;
+   overflow: hidden;
+}
+
+.triline-clamp {
+   line-height: 1.25em;
+   max-height: 3.75em;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp: 3;
+   overflow: hidden;
+}
+
+.txt-center {
+   text-align: center;
+} .txt-start {
+   text-align: start;
+} .txt-end {
+   text-align: end;
+}
+
+@media only screen and (min-width: 768px) {
+   .txt-md-center {
+      text-align: center !important;
+   } .txt-md-start {
+      text-align: start !important;
+   } .txt-md-end {
+      text-align: end !important;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+   .txt-lg-center {
+      text-align: center !important;
+   } .txt-lg-start {
+      text-align: start !important;
+   } .txt-lg-end {
+      text-align: end !important;
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+   .txt-xl-center {
+      text-align: center !important;
+   } .txt-xl-start {
+      text-align: start !important;
+   } .txt-xl-end {
+      text-align: end !important;
+   }
+}

@@ -1,0 +1,205 @@
+/* Color Utilities (Attr: color, background-color, border-color) */
+
+/* Small Screens */
+.txt-app-primary {
+   color: var(--app-primary) !important;
+} .txt-app-accent {
+   color: var(--app-accent) !important;
+} .txt-app-disabled {
+   color: var(--app-disabled) !important;
+} .txt-app-muted {
+   color: var(--app-muted) !important;
+} .txt-app-dark {
+   color: var(--app-dark) !important;
+} .txt-hvr-app-primary:hover,
+.txt-fc-app-primary:focus {
+   color: var(--app-primary);
+} .txt-hvr-app-accent:hover, 
+.txt-fc-app-accent:focus {
+   color: var(--app-accent);
+} .txt-hvr-app-disabled:hover,
+.txt-fc-app-disabled:focus,
+.txt-dsb-app-disabled:disabled {
+   color: var(--app-disabled);
+} .txt-hvr-app-muted:hover,
+.txt-fc-app-muted:focus {
+   color: var(--app-muted);
+} .txt-hvr-app-dark:hover,
+.txt-fc-app-dark:focus {
+   color: var(--app-dark);
+}
+
+.bg-app-primary {
+   background-color: var(--app-primary) !important;
+} .bg-app-accent {
+   background-color: var(--app-accent) !important;
+} .bg-app-disabled {
+   background-color: var(--app-disabled) !important;
+} .bg-app-muted {
+   background-color: var(--app-muted) !important;
+} .bg-app-dark {
+   background-color: var(--app-dark) !important;
+} .bg-hvr-app-primary:hover,
+.bg-fc-app-primary:focus {
+   background-color: var(--app-primary) !important;
+} .bg-hvr-app-accent:hover, 
+.bg-fc-app-accent:focus {
+   background-color: var(--app-accent) !important;
+} .bg-hvr-app-disabled:hover,
+.bg-fc-app-disabled:focus,
+.bg-dsb-app-disabled:disabled {
+   background-color: var(--app-disabled) !important;
+} .bg-hvr-app-muted:hover,
+.bg-fc-app-muted:focus {
+   background-color: var(--app-muted) !important;
+} .bg-hvr-app-dark:hover,
+.bg-fc-app-dark:focus {
+   background-color: var(--app-dark) !important;
+}
+
+.brd-app-transparent {
+   border-color: transparent;
+} .brd-app-primary {
+   border-color: var(--app-primary);
+} .brd-app-accent {
+   border-color: var(--app-accent);
+} .brd-app-disabled {
+   border-color: var(--app-disabled);
+} .brd-app-muted {
+   border-color: var(--app-muted);
+} .brd-app-dark {
+   border-color: var(--app-dark);
+} .brd-hvr-app-primary:hover,
+.brd-fc-app-primary:focus {
+   border-color: var(--app-primary);
+} .brd-hvr-app-accent:hover, 
+.brd-fc-app-accent:focus {
+   border-color: var(--app-accent);
+} .brd-hvr-app-disabled:hover,
+.brd-fc-app-disabled:focus,
+.brd-dsb-app-disabled:disabled {
+   border-color: var(--app-disabled);
+} .brd-hvr-app-muted:hover,
+.brd-fc-app-muted:focus {
+   border-color: var(--app-muted);
+} .brd-hvr-app-dark:hover,
+.brd-fc-app-dark:focus {
+   border-color: var(--app-dark);
+}
+
+/* Medium Screens */
+@media only screen and (min-width: 768px) {
+   .txt-md-app-primary {
+      color: var(--app-primary) !important;
+   } .txt-md-app-accent {
+      color: var(--app-accent) !important;
+   } .txt-md-app-disabled {
+      color: var(--app-disabled) !important;
+   } .txt-hvr-md-app-primary:hover,
+   .txt-fc-md-app-primary:focus {
+      color: var(--app-primary) !important;
+   } .txt-hvr-md-app-accent:hover, 
+   .txt-fc-md-app-accent:focus {
+      color: var(--app-accent) !important;
+   } .txt-hvr-md-app-disabled:hover,
+   .txt-fc-md-app-disabled:focus,
+   .txt-dsb-md-app-disabled:disabled {
+      color: var(--app-disabled) !important;
+   }
+
+   .bg-md-app-primary {
+      background-color: var(--app-primary) !important;
+   } .bg-md-app-accent {
+      background-color: var(--app-accent) !important;
+   } .bg-md-app-disabled {
+      background-color: var(--app-disabled) !important;
+   } .bg-hvr-md-app-primary:hover,
+   .bg-fc-md-app-primary:focus {
+      background-color: var(--app-primary) !important;
+   } .bg-hvr-md-app-accent:hover, 
+   .bg-fc-md-app-accent:focus {
+      background-color: var(--app-accent) !important;
+   } .bg-hvr-md-app-disabled:hover,
+   .bg-fc-md-app-disabled:focus,
+   .bg-dsb-md-app-disabled:disabled {
+      background-color: var(--app-disabled) !important;
+   }
+}
+
+/* Large Screens */
+@media only screen and (min-width: 992px) {
+   .txt-lg-app-primary {
+      color: var(--app-primary) !important;
+   } .txt-lg-app-accent {
+      color: var(--app-accent) !important;
+   } .txt-lg-app-disabled {
+      color: var(--app-disabled) !important;
+   } .txt-hvr-lg-app-primary:hover,
+   .txt-fc-lg-app-primary:focus {
+      color: var(--app-primary) !important;
+   } .txt-hvr-lg-app-accent:hover, 
+   .txt-fc-lg-app-accent:focus {
+      color: var(--app-accent) !important;
+   } .txt-hvr-lg-app-disabled:hover,
+   .txt-fc-lg-app-disabled:focus,
+   .txt-dsb-lg-app-disabled:disabled {
+      color: var(--app-disabled) !important;
+   }
+
+   .bg-lg-app-primary {
+      color: var(--app-primary) !important;
+   } .bg-lg-app-accent {
+      color: var(--app-accent) !important;
+   } .bg-lg-app-disabled {
+      color: var(--app-disabled) !important;
+   } .bg-hvr-lg-app-primary:hover,
+   .bg-fc-lg-app-primary:focus {
+      color: var(--app-primary) !important;
+   } .bg-hvr-lg-app-accent:hover, 
+   .bg-fc-lg-app-accent:focus {
+      color: var(--app-accent) !important;
+   } .bg-hvr-lg-app-disabled:hover,
+   .bg-fc-lg-app-disabled:focus,
+   .bg-dsb-lg-app-disabled:disabled {
+      color: var(--app-disabled) !important;
+   }
+}
+
+/* Extra Large Screens */
+@media only screen and (min-width: 1200px) {
+   .txt-xl-app-primary {
+      color: var(--app-primary) !important;
+   } .txt-xl-app-accent {
+      color: var(--app-accent) !important;
+   } .txt-xl-app-disabled {
+      color: var(--app-disabled) !important;
+   } .txt-hvr-xl-app-primary:hover,
+   .txt-fc-xl-app-primary:focus {
+      color: var(--app-primary) !important;
+   } .txt-hvr-xl-app-accent:hover, 
+   .txt-fc-xl-app-accent:focus {
+      color: var(--app-accent) !important;
+   } .txt-hvr-xl-app-disabled:hover,
+   .txt-fc-xl-app-disabled:focus,
+   .txt-dsb-xl-app-disabled:disabled {
+      color: var(--app-disabled) !important;
+   }
+
+   .bg-xl-app-primary {
+      background-color: var(--app-primary) !important;
+   } .bg-xl-app-accent {
+      background-color: var(--app-accent) !important;
+   } .bg-xl-app-disabled {
+      background-color: var(--app-disabled) !important;
+   } .bg-hvr-xl-app-primary:hover,
+   .bg-fc-xl-app-primary:focus {
+      background-color: var(--app-primary) !important;
+   } .bg-hvr-xl-app-accent:hover, 
+   .bg-fc-xl-app-accent:focus {
+      background-color: var(--app-accent) !important;
+   } .bg-hvr-xl-app-disabled:hover,
+   .bg-fc-xl-app-disabled:focus,
+   .bg-dsb-xl-app-disabled:disabled {
+      background-color: var(--app-disabled) !important;
+   }
+}
